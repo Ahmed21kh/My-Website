@@ -1,0 +1,43 @@
+
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.subscribe
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #EEE;
+}
+
+.subscribe h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p
+{
+    margin-bottom: 40px;
+}
+.subscribe .form-control
+{
+    border-radius: 0;
+
+    width: 300px;
+
+}
+@media(max-width:768px){
+  .subscribe .form-control{
+    margin: 20px auto;
+    width: 400px;
+  }
+}
+.subscribe button
+{
+    border-radius: 0;
+
+}
+

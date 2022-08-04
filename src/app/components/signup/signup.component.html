@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="row">
+
+    <form autocomplete="of" #form="ngForm" (submit)="onSubmit(form)" >
+      <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="string" class="form-control" id="fname" [(ngModel)]="signup.fname" ngModel name="fname" #fname="ngModel" required minlength="5" maxlength="20">
+
+        <div class="alert alert-danger" *ngIf="fname.touched && !fname.valid ">
+          <div *ngIf="fname.errors?.required ">First Name is required</div>
+          <div *ngIf="fname.errors?.minlength ">minimum is 5 characters</div>
+          <div *ngIf="fname.errors?.maxlength ">maximum is 20 characters</div>
+
+      </div>
+      </div>
+
+      <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="string" class="form-control" id="lname" [(ngModel)]="signup.lname" ngModel name="lname" #lname="ngModel" required minlength="5" maxlength="20">
+
+        <div class="alert alert-danger" *ngIf="lname.touched && !lname.valid ">
+          <div *ngIf="lname.errors?.required ">Last Name is required</div>
+          <div *ngIf="lname.errors?.minlength ">minimum is 5 characters</div>
+          <div *ngIf="lname.errors?.maxlength ">maximum is 20 characters</div>
+
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" [(ngModel)]="signup.password" ngModel name="password" #password="ngModel" required minlength="8" maxlength="20" pattern="">
+
+        <div class="alert alert-danger" *ngIf="password.touched && !password.valid ">
+          <div *ngIf="password.errors?.required ">Password is required</div>
+          <div *ngIf="password.errors?.minlength ">minimum is 8 characters</div>
+          <div *ngIf="password.errors?.maxlength ">maximum is 20 characters</div>
+
+
+
+
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmpassword" [(ngModel)]="confirmpass" ngModel name="confirmpassword" #confirmpassword="ngModel" required minlength="8" maxlength="20" pattern="{{signup.password}}">
+
+        <div class="alert alert-danger" *ngIf="confirmpassword.touched && !confirmpassword.valid ">
+          <div *ngIf="confirmpassword.errors?.required ">Confirm Password is required</div>
+
+          <div *ngIf="confirmpassword.errors?.pattern ">Password is Wrong</div>
+
+        </div>
+      </div>
+    </form>
+    <button class="btn btn-danger d-flex justify-content-center" type="submit" >Submit</button>
+
+
+  </div>
+</div>
+
+
+
+

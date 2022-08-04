@@ -1,0 +1,42 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.contact-us
+{
+    background: url(../../../imges/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg) no-repeat center center fixed ;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    min-height: 300px;
+    color: #fff;
+}
+
+.contact-us .fields
+{
+    background: rgba(2, 2, 2, 0.8);
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.contact-us p
+{
+    margin-bottom: 40px;
+}
+.contact-us .fields textarea
+{
+    height: 108px;
+}
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background: rgba(82,78,78,0.9);
+    color: #fff;
+    border: none;
+}

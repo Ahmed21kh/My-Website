@@ -1,0 +1,608 @@
+.os
+{
+    background-color: rgb(56, 55, 56);
+    color: white;
+    text-align: center;
+    margin: 7px;
+    padding: 7px;
+
+}
+body
+{
+    padding: 0;
+   
+}
+.navbar-brand{
+    min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus
+ {
+     background-color: red;
+     color: #BBB;
+     
+
+ }
+ .dropdown-menu
+ {
+     background-color: rgb(56, 55, 56);
+     border-top:3px solid red;
+     min-width: 200px;
+     padding-right: 10px;
+ }
+ .dropdown-menu > li > a
+ {
+    color: white;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+ }
+ .dropdown-menu > li > a:hover
+ {
+     padding-left: 30px;
+     background-color: red;
+     color: white;
+    
+ }
+ .navbar-inverse .navbar-brand
+ {
+     color:#BBB;
+     font-size: 30px;
+     line-height: 40px;
+
+ }
+ .navbar-inverse .navbar-brand span
+ {
+     color: red;
+ }
+ .navbar-inverse .navbar-nav > li > a
+ {
+     color: #BBB;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     font-size: 16px;
+ }
+ 
+
+.dropdown-menu .divider
+{
+   background-color: rgb(161, 37, 37);
+}
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+.navbar-toggle
+{
+    margin-top: 18px;
+}
+.carousel-inner
+{
+    margin-top: -20px;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    
+
+}
+.carousel-indicators
+{
+    margin-bottom: -10px;
+}
+.carousel-caption
+{
+    bottom: 200px;
+    background:rgba(3, 3, 3, 0.3);
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    background-color: rgb(224, 212, 212);
+}
+.carousel-indicators li
+{
+    height: 17px;
+    width: 17px;
+}
+.about h1
+{
+    font-weight:bold ;
+    margin-bottom: 30px;
+}
+.about
+{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.about.lead
+{
+    color: rgb(199, 199, 199);
+    font-size: 18px;
+}
+.about h1 span
+{
+    color: red;
+}
+.features
+{
+   background:#EEE;
+   padding-top: 50px;
+   padding-bottom: 50px; 
+ 
+}
+.features h1
+{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.features .feat
+{
+    border-bottom: 3px solid #888;
+    padding: 10px;
+}
+
+.features .feat p
+{
+    line-height: 2em;
+    font-size: 18px;
+
+}
+.features .feat h3
+{
+    font-weight: bold;
+}
+.features .feat span.glyphicon
+{
+   font-size: 25px;
+    color: rgb(95, 94, 94);
+}
+.testimonials
+{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.testimonials h1
+{
+    font-weight: bold;
+    margin-bottom: 40px;
+    
+}
+.testimonials .about.lead
+{
+    line-height: 2em;
+}
+.testimonials span
+{
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+.testimonials.carousel-inner
+{
+    min-height: 160px;
+    
+
+}
+
+.testimonials .carousel-indicators 
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+    
+}
+.testimonials .carousel-indicators .active {
+    width: 80px;
+    height: 80px;
+   background:none;
+   border: 3px solid rgb(240, 9, 9);
+    opacity: 1;
+}
+.testimonials .carousel-indicators li
+{
+   text-indent: 0;
+   width: 80px;
+   height: 80px;
+   border: 3px solid rgb(252, 248, 248);
+   border-radius: 50%;
+   overflow: hidden;
+   opacity: 0.4;
+   margin: 33px;
+   
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+    
+
+}
+.price-table
+{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.price-table h1
+
+{
+    margin-bottom: 40px;
+    font-weight: bold;
+    
+
+}
+.price-table .price-box
+{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+
+}
+.price-table .price-box h2
+{
+    margin: 5px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+}
+.price-table .price-box p
+{
+   font-size: 35px;
+   font-weight: bold;
+   color: #888; 
+   width: 100px;
+   height: 100px;
+   background: #f3f3f3;
+   line-height: 100px;
+   border-radius: 50%;
+   -webkit-transition-duration: 0.7s;
+   -moz-transition-duration: 0.7s;
+   -o-transition-duration: 0.7s;
+   transition-duration: 0.7s;
+   border: 2px solid rgb(236, 231, 231);
+
+   
+}
+.price-table .price-box ul
+{
+    line-height: 3em;
+}
+.price-table .price-box a
+{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.price-table .price-box:hover p
+{
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+}
+.price-table .price-box:hover
+{
+    background: rgb(37, 37, 37);
+    color: #ddd;
+    border: 1px solid rgb(231, 12, 12);
+    -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+.our-team
+{
+    background: url(../2.jpg) no-repeat center center  fixed;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    width: 100%;
+    min-height: 600px;
+}
+.our-team .team
+{
+    background: rgba(2, 2, 2, 0.8);
+    color: #fff;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team h1
+{
+    margin-bottom: 70px;
+}
+.our-team .team .img-circle
+{
+    width: 120px;
+    height: 120px;
+}
+.our-team .team h3
+{
+    margin-bottom: 20px;
+}
+.our-team .team i
+{
+    margin-bottom: 20px;
+    padding: 5px;
+    color: #ddd;
+    cursor: pointer;
+}
+.our-team .team i:hover
+{
+    color: rgb(50, 140, 224);
+    -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+.subscribe
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #EEE;
+}
+.subscribe h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p
+{
+    margin-bottom: 40px;
+}
+.subscribe .form-control
+{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+    
+}
+.subscribe button
+{
+    border-radius: 0;
+
+}
+.statistics
+{
+    background: url(../photo-1532289735437-a07b8f3240e2.jpg) no-repeat center center fixed ;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    min-height: 300px;
+    color: #ddd;
+}
+.statistics .data
+{
+    background: rgba(2, 2, 2, 0.8);
+    min-height: 300px;
+    padding-bottom: 70px;
+}
+.statistics h1
+
+{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.statistics .stats
+{
+    color: rgb(161, 159, 159);
+    -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+   margin-bottom: 30px;
+}
+.statistics .stats:hover
+{
+    color: #fff;
+}
+.statistics p
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.statistics span
+{
+    font-size: 16px;
+}
+
+.our-skills
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.our-skills h1
+{
+  margin-bottom: 60px;  
+}
+.our-skills h3
+{
+    font-weight: bold;
+    margin-top: 0;
+}
+.our-skills .progress
+{
+    height: 36px;
+    
+    
+}
+.our-skills .progress-bar
+{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.contact-us
+{
+    background: url(../alesia-kazantceva-VWcPlbHglYc-unsplash.jpg) no-repeat center center fixed ;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    min-height: 300px;
+    color: #fff;
+}
+
+.contact-us .fields
+{
+    background: rgba(2, 2, 2, 0.8);
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  
+}
+.contact-us p
+{
+    margin-bottom: 40px;
+}
+.contact-us .fields textarea
+{
+    height: 108px;
+}
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background: rgba(82,78,78,0.9);
+    color: #fff;
+    border: none;
+}
+.our-clients
+
+{
+    background: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.our-clients img
+{
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.our-clients img:hover
+{
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+.footer
+{
+    background: #111;
+    color: #aaa;
+    padding-top: 20px;
+    
+
+}
+.footer a
+{
+    color: #aaa;
+}
+.footer a :hover
+{
+    color: #fff;
+}
+
+.footer h3
+{
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+.footer .three-columns
+{
+    overflow: hidden;
+}
+.footer .three-columns li
+{
+    width: 33.3333%;
+    float: left;
+    padding: 5px;
+}
+.footer .social-list
+{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.footer .social-list li
+{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+     
+}
+.footer .social-list li:hover
+{
+    opacity: 1;
+}
+.footer .img-thumbnail
+{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+    
+
+
+}
+.footer .copyright
+{
+    padding: 15px 0;
+    font-weight: bold ;
+    letter-spacing: 1px;
+    background: #333;
+    color: #aaa;
+    font-size: 18px;
+    margin-top: 30px;
+
+    
+
+}
+.footer .copyright span
+{
+    color:#0895d1;
+}
+@media (max-width:768px)
+{
+    h1
+    {
+        font-size: 80px;
+    }
+}

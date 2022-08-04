@@ -1,0 +1,81 @@
+*{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.price-table
+{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.price-table h1
+
+{
+    margin-bottom: 40px;
+    font-weight: bold;
+
+
+}
+.price-table .price-box
+{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+
+}
+.price-table .price-box h2
+{
+    margin: 5px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+}
+.price-table .price-box p
+{
+   font-size: 35px;
+   font-weight: bold;
+   color: #888;
+   width: 100px;
+   height: 100px;
+   background: #f3f3f3;
+   line-height: 100px;
+   border-radius: 50%;
+   -webkit-transition-duration: 0.7s;
+   -moz-transition-duration: 0.7s;
+   -o-transition-duration: 0.7s;
+   transition-duration: 0.7s;
+   border: 2px solid rgb(236, 231, 231);
+
+
+}
+.price-table .price-box ul
+{
+    line-height: 3em;
+}
+.price-table .price-box a
+{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.price-table .price-box:hover p
+{
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+}
+.price-table .price-box:hover
+{
+    background: rgb(37, 37, 37);
+    color: #ddd;
+    border: 1px solid rgb(231, 12, 12);
+    -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
