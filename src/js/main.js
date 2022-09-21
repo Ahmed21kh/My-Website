@@ -17,12 +17,12 @@ $(document).ready(function(){
 //   slidH=$('.carousel-inner').height()
 // $('.carousel-caption').height(winH  / 2);
 
-  $('.carousel-caption').each(function(){
+  // $('.carousel-caption').each(function(){
 
-    var winH = $(window).height(),
-     navH = $('.navbar').innerHeight()
-    $(this).css('margBottom',((winH ) - $('.carousel-caption').height()) / 2 );
-  })
+  //   var winH = $(window).height(),
+  //    navH = $('.navbar').innerHeight()
+  //   $(this).css('margBottom',((winH ) - $('.carousel-caption').height()) / 2 );
+  // })
 
   // nav bar
   $(' .collapse ul li').on('click', function () {
