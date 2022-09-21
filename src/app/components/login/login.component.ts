@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { LoginModel } from 'src/app/models/login';
+import { RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -14,6 +15,7 @@ export class LoginComponent implements OnInit {
    public login :LoginModel;
   collapsed:boolean=true;
   dropdown:boolean=true
+  routes: Routes
 
 
   constructor() {
@@ -22,7 +24,7 @@ export class LoginComponent implements OnInit {
 
 
   onSubmit(_form:NgForm){
-
+    
     console.log(this.login);
 
     // this.User.push(this.login.email, this.login.password)

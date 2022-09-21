@@ -23,12 +23,79 @@
 }
 .carousel-caption
 {
-    bottom: 200px;
+   margin-bottom: 250px;
+   display:block;
+    justify-content: center;
     background:rgba(3, 3, 3, 0.3);
-    padding-left:20px ;
-    padding-right: 20px;
-}
 
+
+}
+@media( max-width: 1400px ){
+
+  .carousel-caption
+{
+   height: 300px;
+   margin-bottom: 150px;
+
+
+
+}
+}
+@media( max-width: 992px ){
+
+  .carousel-caption
+{
+   height: 300px;
+   margin-bottom: 50px;
+
+
+
+}
+}
+@media( max-width: 767px ){
+
+  .carousel-caption
+{
+  display: flex;
+   height: 150px;
+   margin-bottom: 80px;
+   align-items: center;
+
+
+
+}
+}
+@media( max-width: 767px ){
+
+  .carousel-caption h1
+{
+   font-size: 45px;
+
+}
+}
+@media( max-width: 520px ){
+
+  .carousel-caption
+{
+  display: flex;
+  align-items: center;
+   height: 100px;
+
+}
+}
+@media( max-width: 520px ){
+
+  .carousel-caption h1
+{
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+
+}
+}
+.carousel-caption p{
+  font-size: 18;
+}
 
 .carousel-indicators .active {
     width: 17px;
