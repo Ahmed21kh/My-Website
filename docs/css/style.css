@@ -10,7 +10,7 @@
 body
 {
     padding: 0;
-   
+
 }
 .navbar-brand{
     min-height: 70px;
@@ -22,7 +22,7 @@ body
  {
      background-color: red;
      color: #BBB;
-     
+
 
  }
  .dropdown-menu
@@ -46,7 +46,7 @@ body
      padding-left: 30px;
      background-color: red;
      color: white;
-    
+
  }
  .navbar-inverse .navbar-brand
  {
@@ -66,7 +66,7 @@ body
      padding-bottom: 25px;
      font-size: 16px;
  }
- 
+
 
 .dropdown-menu .divider
 {
@@ -88,7 +88,7 @@ body
     -moz-background-size:cover ;
     -o-background-size:cover ;
     background-size:cover ;
-    
+
 
 }
 .carousel-indicators
@@ -138,8 +138,8 @@ body
 {
    background:#EEE;
    padding-top: 50px;
-   padding-bottom: 50px; 
- 
+   padding-bottom: 50px;
+
 }
 .features h1
 {
@@ -178,7 +178,7 @@ body
 {
     font-weight: bold;
     margin-bottom: 40px;
-    
+
 }
 .testimonials .about.lead
 {
@@ -193,17 +193,17 @@ body
 .testimonials.carousel-inner
 {
     min-height: 160px;
-    
+
 
 }
 
-.testimonials .carousel-indicators 
+.testimonials .carousel-indicators
 {
     position: static;
     width: 100%;
     margin-left: auto;
     padding-top: 20px;
-    
+
 }
 .testimonials .carousel-indicators .active {
     width: 80px;
@@ -222,7 +222,7 @@ body
    overflow: hidden;
    opacity: 0.4;
    margin: 33px;
-   
+
    -webkit-transition: all 0.5s ease;
    -moz-transition: all 0.5s ease;
    -o-transition: all 0.5s ease;
@@ -231,7 +231,7 @@ body
 .testimonials .carousel-indicators li img
 {
     max-width: 100%;
-    
+
 
 }
 .price-table
@@ -247,7 +247,7 @@ body
 {
     margin-bottom: 40px;
     font-weight: bold;
-    
+
 
 }
 .price-table .price-box
@@ -268,7 +268,7 @@ body
 {
    font-size: 35px;
    font-weight: bold;
-   color: #888; 
+   color: #888;
    width: 100px;
    height: 100px;
    background: #f3f3f3;
@@ -280,7 +280,7 @@ body
    transition-duration: 0.7s;
    border: 2px solid rgb(236, 231, 231);
 
-   
+
 }
 .price-table .price-box ul
 {
@@ -376,7 +376,7 @@ body
     border-radius: 0;
     margin-right: -5px;
     width: 300px;
-    
+
 }
 .subscribe button
 {
@@ -437,7 +437,7 @@ body
 }
 .our-skills h1
 {
-  margin-bottom: 60px;  
+  margin-bottom: 60px;
 }
 .our-skills h3
 {
@@ -447,8 +447,8 @@ body
 .our-skills .progress
 {
     height: 36px;
-    
-    
+
+
 }
 .our-skills .progress-bar
 {
@@ -476,7 +476,7 @@ body
     min-height: 300px;
     padding-top: 40px;
     padding-bottom: 40px;
-  
+
 }
 .contact-us p
 {
@@ -522,7 +522,7 @@ body
     background: #111;
     color: #aaa;
     padding-top: 20px;
-    
+
 
 }
 .footer a
@@ -567,7 +567,7 @@ body
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-     
+
 }
 .footer .social-list li:hover
 {
@@ -578,7 +578,7 @@ body
     background: rgba(0,0,0,0.2);
     border: 1px solid #444;
     margin-bottom: 5px;
-    
+
 
 
 }
@@ -592,7 +592,7 @@ body
     font-size: 18px;
     margin-top: 30px;
 
-    
+
 
 }
 .footer .copyright span
